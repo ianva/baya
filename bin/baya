@@ -1,0 +1,20 @@
+#!/usr/bin/env node
+var argv = require('optimist')
+    .usage('Create the directory structure.\nUsage: $0')
+    .wrap(80)
+    .demand('i')
+    .alias('i', 'input' )
+    .describe('i', "Config file path")
+    .demand('o')
+    .alias('o','output')
+    .describe('o','Output path')
+    .default('o', './')
+    .argv
+;
+
+
+var baya = require('../lib/baya.js')
+;
+
+baya.generate( argv.i, argv.o );
+

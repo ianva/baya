@@ -1,0 +1,11 @@
++ test
+    + app
+        + module
+            - media.html
+        - a.html
+    + html
+        - index.html
+    - a.js
+    + styl
+    + conf
+- test.json
