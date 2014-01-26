@@ -2,7 +2,7 @@
   "name": "baya",
   "version": "0.0.1",
   "description": "Create the directory structure",
-  "keywords": ['mkdir','structure','directory'],
+  "keywords": ["mkdir","structure","directory"],
   "author": "ianva <ianva7@gmail.com>",
   "repository": { "type": "git", "url": "git://github.com/ianva/baya.git" },
   "dependencies": {},
