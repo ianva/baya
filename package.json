@@ -11,5 +11,5 @@
     "optimist": "~0.6.0"
   },
   "main": "lib/baya.js",
-  "bin": "bin/baya",
+  "bin": "bin/baya"
 }
