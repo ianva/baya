@@ -10,5 +10,6 @@
     "shelljs": "~0.2.6",
     "optimist": "~0.6.0"
   },
-  "main": "lib/baya.js"
+  "main": "lib/baya.js",
+  "bin": "bin/baya",
 }
