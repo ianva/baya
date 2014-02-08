@@ -1,6 +1,6 @@
 {
   "name": "baya",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Create the directory structure",
   "keywords": ["mkdir","structure","directory"],
   "author": "ianva <ianva7@gmail.com>",
