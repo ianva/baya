@@ -1,14 +1,26 @@
 #!/usr/bin/env node
 var argv = require('optimist')
     .usage('Create the directory structure.\nUsage: $0')
-    .wrap(80)
+    .wrap(90)
+
+    // input
     .demand('i')
     .alias('i', 'input' )
     .describe('i', "Config file path")
+
+    // output
     .demand('o')
     .alias('o','output')
     .describe('o','Output path')
     .default('o', './')
+
+    // template root path
+    .demand('t')
+    .alias('t','template')
+    .describe('t', "Copy files and directory from the template")
+    .default('t', './')
+
+    // return
     .argv
 ;
 
@@ -16,5 +28,5 @@ var argv = require('optimist')
 var baya = require('../lib/baya.js')
 ;
 
-baya.generate( argv.i, argv.o );
+baya.generate( argv.i, argv.o, argv.t );
 
