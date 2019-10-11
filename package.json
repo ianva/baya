@@ -2,15 +2,20 @@
   "name": "baya",
   "version": "0.0.5",
   "description": "Create the directory structure",
-  "keywords": ["mkdir","structure","directory"],
+  "keywords": [
+    "mkdir",
+    "structure",
+    "directory"
+  ],
   "author": "ianva <ianva7@gmail.com>",
-  "repository": { "type": "git", "url": "git://github.com/ianva/baya.git" },
-  "dependencies": {
-    "shelljs": "~0.2.6",
-    "optimist": "~0.6.0"
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ianva/baya.git"
   },
-  "devDependencies": { 
-      "pegjs": "~0.8.0"
+  "dependencies": {
+    "optimist": "^0.6.1",
+    "pegjs": "^0.10.0",
+    "shelljs": "^0.8.3"
   },
   "main": "lib/baya.js",
   "bin": "bin/baya"
